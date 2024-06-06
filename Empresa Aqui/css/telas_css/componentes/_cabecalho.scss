@@ -1,3 +1,5 @@
+// inicio do header
+
 .caixa_pai{
     width: 100%;
     height: 4vw;
@@ -8,28 +10,53 @@
     justify-content: space-between;
     padding: 0;
         .caixa_img{
+            width: 20%;
+            height: 50%;
         }
         .img_logo{
             width: 3%;
         }
+        // aqui é  a img do usuario
         .img_usuario{
             width: 3%;
             background-color: aliceblue;
             margin-left: 0%;
         }
+        .teste{
+            display: block;
+        }
         .form_pai{
             display: inline-block;
+            .input{
+                padding: 10px;
+                width: 190%;
+                border-radius: 50px;
+                border: none;
+                background-image: url('../../../imagens/icones/pesquisa.png');
+                background-repeat: no-repeat;
+                background-size: 25px;
+                background-position: left center;
+                
+            }.input::placeholder{
+                padding-left: 20px;
+                        }
         }
         .caixa_lista{
-            display: inline-block;
             .lista_ul{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+                .icones{
+                    display: inline-block;
+                    width: 7%;
+                }
                 .lista_li{
                     display: inline-block;
-                    text-align: center;
-                    .icones{
-                        width: 25%;
-                    }
+
                 }
             }
         }
 }
+
+// fim do header

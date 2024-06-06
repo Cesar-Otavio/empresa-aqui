@@ -14,6 +14,10 @@
   justify-content: space-between;
   padding: 0;
 }
+.caixa_pai .caixa_img {
+  width: 20%;
+  height: 50%;
+}
 .caixa_pai .img_logo {
   width: 3%;
 }
@@ -22,16 +26,38 @@
   background-color: aliceblue;
   margin-left: 0%;
 }
+.caixa_pai .teste {
+  display: block;
+}
 .caixa_pai .form_pai {
   display: inline-block;
 }
-.caixa_pai .caixa_lista {
+.caixa_pai .form_pai .input {
+  padding: 10px;
+  width: 190%;
+  border-radius: 50px;
+  border: none;
+  background-image: url("../../../imagens/icones/pesquisa.png");
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: left center;
+}
+.caixa_pai .form_pai .input::-moz-placeholder {
+  padding-left: 20px;
+}
+.caixa_pai .form_pai .input::placeholder {
+  padding-left: 20px;
+}
+.caixa_pai .caixa_lista .lista_ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.caixa_pai .caixa_lista .lista_ul .icones {
   display: inline-block;
+  width: 7%;
 }
 .caixa_pai .caixa_lista .lista_ul .lista_li {
   display: inline-block;
-  text-align: center;
-}
-.caixa_pai .caixa_lista .lista_ul .lista_li .icones {
-  width: 25%;
 }/*# sourceMappingURL=home.css.map */
